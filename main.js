@@ -1,4 +1,5 @@
 import sizesByCorrectionLevel from "./sizetables.js"
+import { getLogAndExpTables, multiply, divide } from "./math.js";
 // FIXME: TESTING VALUES 
 const TEST_STRING = "https://www.qrcode.com/";
 const ERROR_LEVEL = "M";
